@@ -1,0 +1,47 @@
+body{
+  background-image: url(img/ocean.jpg);
+  background-repeat: no-repeat;
+background-position: center;
+
+}
+#box1{backdrop-filter: blur(5px);
+  font-family: fantasy;
+border: rgb(192, 154, 154) solid 2px;
+position:relative;
+width:550px;
+height: 600px;
+
+top: 100px;
+left: 100px;
+text-align: center;
+}
+.inside{
+  margin-top: 100px;
+}
+.in input{
+  backdrop-filter: blur(50px);
+  background-color: transparent;
+
+  padding: 10px;
+height: 20px;
+width: 70%;
+  
+}
+.hii{
+  margin: 10px;
+}
+#submit{
+  background-color: transparent;
+  width: 70%;
+  height: 30px;
+  border-radius: 25px;
+}
+
+.checkbox{
+  position: relative;
+  right: 80px;
+}
+.label{
+  position: relative;
+  left: 100px;
+}
